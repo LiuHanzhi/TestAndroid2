@@ -1,1 +1,3 @@
+include ':testscheme'
 include ':app', ':testsingleinstance', ':testsingletask', ':testjava', ':testmessenger', ':testservicemulit', ':testhidenavigation'
+
