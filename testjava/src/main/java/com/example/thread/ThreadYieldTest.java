@@ -5,7 +5,7 @@ package com.example.thread;
  * 一个调用yield()方法的线程告诉虚拟机它乐意让其他线程占用自己的位置。
  * 这表明该线程没有在做一些紧急的事情。
  * 注意，这仅是一个暗示，并不能保证不会产生任何影响。
- * ps:
+ * ps: 以下代码，不能保证两个线程交替执行。
  */
 
 public class ThreadYieldTest {
